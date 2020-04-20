@@ -1,0 +1,2 @@
+RewriteRule ^404?$ 404.html [NC, L]
+ErrorDocument 404 /404

@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Gagalin';
+	src: url('fonts/Gagalin/Gagalin-Regular.eot');
+	src: local('fonts/Gagalin/Gagalin Regular'), local('Gagalin-Regular'),
+		url('fonts/Gagalin/Gagalin-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Gagalin/Gagalin-Regular.woff') format('woff'),
+		url('fonts/Gagalin/Gagalin-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: Gagalin;				/* Название шрифта */
+	font-style: normal;					/* Стиль шрифта */
+	font-size: 75px; 					/* Размер текста */
+	letter-spacing: 2px;				/* Расстояние между букв */
+	word-spacing: 1px;					/* Расстояние между слов */
+	line-height: 62px; 					/* Расстояние между строк */
+	color: White;						/* Цвет текста */
+	text-transform: uppercase;			/* Трансформация текста */
+	text-shadow: 2px 2px 2px #000		/* Тень (обводка) */
+}
+
+body {
+	background-image: url(../img/background/background-photo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#464646;
+}
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../img/background/background-photo-mobile-devices.png);
+  }
+}
+
+.main-text {
+	text-align: center;
+}
+.iframe {
+	text-align: center;
+}
+
+#timer_num {
+	width: 712px;
+	height: 100px;
+	background: url('../img/timer/timer.gif') no-repeat;
+	text-align: center;
+	font-size: 0px;
+	color: #fff;
+}
+
+.shine:hover {
+  box-shadow: 0 0 15px #ffffff;
+  border: 0px solid #ffffff;
+}
+
+.shine {
+    transition: all .3s;
+    border-radius:50px;
+}
