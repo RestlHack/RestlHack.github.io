@@ -10,15 +10,15 @@
 }
 
 h1 {
-	font-family: Gagalin;				/* Название шрифта */
-	font-style: normal;					/* Стиль шрифта */
-	font-size: 75px; 					/* Размер текста */
-	letter-spacing: 2px;				/* Расстояние между букв */
-	word-spacing: 1px;					/* Расстояние между слов */
-	line-height: 62px; 					/* Расстояние между строк */
-	color: White;						/* Цвет текста */
-	text-transform: uppercase;			/* Трансформация текста */
-	text-shadow: 2px 2px 2px #000		/* Тень (обводка) */
+	font-family: Gagalin;
+	font-style: normal;
+	font-size: 75px;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	line-height: 62px;
+	color: White;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000
 }
 
 body {
