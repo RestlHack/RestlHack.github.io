@@ -22,7 +22,7 @@ h1 {
 }
 
 body {
-	background-image: url(../img/background/background-photo.png);
+	background-image: url(https://cdn.discordapp.com/attachments/488719587911663616/702053984743194654/background-photo.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(../img/background/background-photo-mobile-devices.png);
+    background-image: url(https://cdn.discordapp.com/attachments/488719587911663616/702053980791898122/background-photo-mobile-devices.png);
   }
 }
 
